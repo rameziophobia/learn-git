@@ -21,5 +21,9 @@ git checkout -b name           // git branch name then git checkout name
 git merge branch2 branch3      // merges checkout branch with the params the checout label will be 
                                // the label of the new branch
 
+git remote                     // shows list of remotes -v : more info
+git remote add name            // adds a remote for the repository, name std: "origin"
+git push remote_name branch1   // pushes commit history in branch1 to github rep. "remote_name"
+
 git config --global -e         // change git config
 git gc                         // git garbage collector, automatically deletes unreachable commits
