@@ -1,0 +1,25 @@
+git log                        // shows the list of commits // --graph --oneline branch1 branch2
+get diff OldID NewID           // can be used to show the difference bet. 2 commits
+get diff                       // bet. staging area and the working directory
+get diff --staged              // bet. staging area and the most recent commit
+git show commit_id             // compare commit to its parent
+git checkout ID                // switches head to the commit referenced by ID 
+                               // (u can use a branch name)
+git checkout master            // goto the last commit // go there before adding commits
+git clone url                  // Make a copy of an entire Git repository,
+                               // including the history, onto your own computer.
+
+git init                       // makes a repository
+git status                     // shows changes since the last commit
+git add                        // adds a file to commit (stages a change)
+git reset                      // removes a file from a commit (unstages a commit)
+git reset --hard               // resets changes after the last commit //resets the staging area
+
+git branch                     // shows the current branches, what branch u r in (*)
+git branch name                // creates a branch giving it a name, use checkout to switch branches
+git checkout -b name           // git branch name then git checkout name
+git merge branch2 branch3      // merges checkout branch with the params the checout label will be 
+                               // the label of the new branch
+
+git config --global -e         // change git config
+git gc                         // git garbage collector, automatically deletes unreachable commits
